@@ -7,9 +7,9 @@ int main(){
     cout<<"enter the value of b:";
     cin>>b;
     if(l==b){
-        cout<<"square"<<endl;
+        cout<<" it is square"<<endl;
     }
     else{
-        cout<<"rectangle"<<endl;
+        cout<<"it is rectangle"<<endl;
     }
 }

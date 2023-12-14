@@ -5,7 +5,7 @@ int main(){
     cout<<"enter the value of x:";
     cin>>x;
     if(x>0){
-        cout<<x<<endl;
+        cout<<x<<"is positive number"<<endl;
     }
     else{
         cout<<"the number is negative and skipped"<<endl;

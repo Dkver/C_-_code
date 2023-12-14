@@ -23,7 +23,7 @@ int main(){
             cout<<"x"<<"/"<<"y"<<"="<<x/y<<endl;
             break;
         default:
-            cout<<"nothing"<<endl;
+            cout<<"error! the operation is not correct"<<endl;
             break;
     }
 }
