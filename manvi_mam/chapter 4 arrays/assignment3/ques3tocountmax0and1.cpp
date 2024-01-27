@@ -2,6 +2,8 @@
 using namespace std;
 int main(){
     int n;
+    int count0=0;
+    int count1=0;
     cout<<"enter the value of n:";
     cin>>n;
     int arr[n];
@@ -11,10 +13,9 @@ int main(){
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
-    int count0=0;
-    int count1=0;
     for(int i=0;i<n;i++){
         if(arr[i]==0  || arr[i]==1){
+            arr[i]=0;
             count0++;
         }
         else{
