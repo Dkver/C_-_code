@@ -24,7 +24,7 @@ bool searchTargetelement(vector<vector<int>> &a,int target){
 }
 int main(){
     vector<vector<int>> a={{1,3,5,7},{10,11,16,20},{23,30,34,60}};
-    int target=3;
+    int target=23;
     cout<<searchTargetelement(a,target)<<" ";
     return 0;
 }
