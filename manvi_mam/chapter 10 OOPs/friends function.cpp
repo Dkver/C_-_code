@@ -7,7 +7,7 @@ public:
         x=y;
     }
 
-    friend void print(A &obj);
+    friend void print(A &obj);// it is friend of print function
 
 
 };
