@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std;
 /**
- * Time Complexity=O(k) where k is position
- * Time Complexity in worst case=O(n) 
+ * Time Complexity=O(n) in worst case
  */
 class Node{
     public:
