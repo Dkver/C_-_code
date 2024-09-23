@@ -11,6 +11,6 @@ class Node{
 };
 int main(){
     Node* n=new Node(1);
-    cout<<n->val<<" "<<n->next<<endl;
+    cout<<n->val<<" "<<endl;
     return 0;
 }
